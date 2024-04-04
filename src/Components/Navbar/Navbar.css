@@ -1,0 +1,7 @@
+.shadow-left {
+    box-shadow: inset -3px 0 0 #cc2d01;
+}
+
+.li {
+    transition: var(--transition-default);
+}
