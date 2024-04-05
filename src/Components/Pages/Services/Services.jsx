@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 const Services = () => {
     const [service, setService] = useState()
@@ -9,6 +11,13 @@ const Services = () => {
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
+
+    useEffect(() => {
+        Aos.init({
+            duration: 400,
+            offset: 300
+        });
+    }, []);
 
     const { user } = service || {};
     const { services } = user || {};

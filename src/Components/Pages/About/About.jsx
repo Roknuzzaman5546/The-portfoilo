@@ -18,7 +18,7 @@ const About = () => {
             data-aos-anchor-placement="top-center"
         >
             {/* about banner section */}
-            <div className=" flex flex-col md:flex-row h-screen">
+            <div className=" flex flex-col md:flex-row ">
                 <div className=" w-full md:w-[50%] max-h-full">
                     <img className=" w-full h-full aspect-auto object-top" src="https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706283290608-n4hq7k" alt="" />
                 </div>
@@ -37,7 +37,7 @@ const About = () => {
             {/* client and what i do section */}
             <div className=' p-[40px] md:p-[80px]'>
                 <h1 className=' text-2xl font-bold inline-block border-b-[4px] border-[#ff714a] px-2'>Clients</h1>
-                <div className='flex justify-center items-around mt-2'>
+                <div className='flex justify-around items-around mt-2 flex-wrap gap-2'>
                     <img className=' h-9' src="https://i.ibb.co/bJ8W313/client-1.png" alt="" />
                     <img className=' h-9' src="https://i.ibb.co/7v9WVhj/client-2.png" alt="" />
                     <img className=' h-9' src="https://i.ibb.co/zNYrr2w/client-3.png" alt="" />
