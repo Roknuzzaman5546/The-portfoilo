@@ -129,8 +129,8 @@
         "_id": "65f1fd9e0556c3f887e9d9d8"
       },
       {
-        "company_name": "ThePortfolyo",
-        "summary": "",
+        "company_name": "ThePortfolio",
+        "summary": "Played a key role in developing a data analytics platform for a diverse range of clients",
         "sequence": 1,
         "icon": {
           "public_id": "1706289470834-siro83",
@@ -141,9 +141,11 @@
         "jobTitle": "Software Developer",
         "jobLocation": "Bangalore",
         "bulletPoints": [
-          "Design and build full website",
-          " Optimized Site ",
-          " SEO implemented"
+          "Developed RESTful APIs and integrated third-party services to ingest and process large volumes of data",
+          "\nDesigned and implemented responsive user interfaces using React.js and Bootstrap.",
+          "\nWorked closely with data scientists to integrate machine learning models into the platform.",
+          "\nOptimized database queries and improved overall system performance.",
+          "\nConducted unit tests and participated in peer code reviews to ensure code quality.\n"
         ],
         "forEducation": true,
         "enabled": true,

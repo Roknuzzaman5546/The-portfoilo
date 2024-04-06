@@ -41,7 +41,7 @@ const Navbar = () => {
                 </div>
             </div>
             {/* copyright section */}
-            <div className=" text-center mt-10 text-xs text-[#aaa]">
+            <div className=" text-center mt-16 text-xs text-[#aaa]">
                 © 2021 All rights
                 reserved.
             </div>

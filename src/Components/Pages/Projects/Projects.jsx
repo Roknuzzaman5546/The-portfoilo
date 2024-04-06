@@ -65,8 +65,8 @@ const Projects = () => {
                                                         <h3 className="text-3xl w-[50%] font-bold text-white">{item?.title}</h3>
                                                         <p className="text-xs text-[#aaaa]">{item?.techStack}</p>
                                                         <div className=" flex justify-between items-center gap-5 mt-3">
-                                                            <button className=" button-orange hover:text-black hover:bg-[#ff714a] p-1">Live url</button>
-                                                            <button className=" button-orange hover:text-black hover:bg-[#ff714a] p-1">Github url</button>
+                                                            <button className=" button-orange hover:text-black hover:bg-[#ff714a] p-1"><a href={item?.liveurl}>Live url</a></button>
+                                                            <button className=" button-orange hover:text-black hover:bg-[#ff714a] p-1"><a href={item.githuburl}>Github</a></button>
                                                         </div>
                                                     </div>
                                                 </div>
