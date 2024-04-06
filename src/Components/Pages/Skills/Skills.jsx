@@ -47,7 +47,7 @@ const Skills = () => {
                         <div key={item._id} className="relative cursor-pointer" onMouseEnter={() => handleMouseEnter(item._id)} onMouseLeave={handleMouseLeave}>
                             <img className={`w-40 h-40 item-img transition-shadow duration-500 ease-in-out transform hover:-translate-y-1`} src={item?.image?.url} alt="" />
                             <h2 className={`text-black bg-white font-bold px-2 py-1 top-3 left-2 absolute ${hoveredItemId === item._id ? 'block' : 'hidden'}`}>{item?.name}</h2>
-                            <h2 className={`text-black bg-white px-2 py-1 bottom-2 left-2 absolute ${hoveredItemId === item._id ? 'block' : 'hidden'}`}>{item?.percentage}</h2>
+                            <h2 className={`text-black bg-white px-2 py-1 bottom-2 left-2 absolute ${hoveredItemId === item._id ? 'block' : 'hidden'}`}>{item?.percentage}%</h2>
                         </div>
 
                     ))

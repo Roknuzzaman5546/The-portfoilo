@@ -18,11 +18,11 @@ const About = () => {
             data-aos-anchor-placement="top-center"
         >
             {/* about banner section */}
-            <div className=" flex flex-col md:flex-row ">
-                <div className=" w-full md:w-[50%] max-h-full">
+            <div className=" flex flex-col md:flex-row h-screen">
+                <div className=" w-full md:w-[50%] min-h-screen h-full">
                     <img className=" w-full h-full aspect-auto object-top" src="https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706283290608-n4hq7k" alt="" />
                 </div>
-                <div className=" w-full md:w-[50%] p-[40px] md:p-[80px] bg-[#333333] max-h-fit table">
+                <div className=" w-full md:w-[50%] pl-[60px] pr-2 flex flex-col justify-center items-center bg-[#333333]  h-full">
                     <div className=" table-cell align-middle">
                         <p className=" text-[#aaa]">Software Developer</p>
                         <h2 className=" text-5xl font-bold text-white my-4">John doe</h2>
