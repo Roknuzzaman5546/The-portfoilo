@@ -1,4 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
+import webDevelopmentImg from '../../../assets/webdevlopment.jpg'
+import marnStackImg from '../../../assets/marnstark.jpg'
+import frontEndImg from '../../../assets/frontend.jpg'
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
@@ -18,16 +21,16 @@ const About = () => {
             data-aos-anchor-placement="top-center"
         >
             {/* about banner section */}
-            <div className=" flex flex-col md:flex-row h-screen">
-                <div className=" w-full md:w-[50%] min-h-screen h-full">
-                    <img className=" w-full h-full aspect-auto object-top" src="https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706283290608-n4hq7k" alt="" />
+            <div className=" flex flex-col md:flex-row h-full w-full">
+                <div className=" w-full md:w-[50%] max-h-full">
+                    <img className=" w-full h-full object-cover aspect-w-1 aspect-h-1" src="https://i.ibb.co/JpgFVxy/ROY-0012-1.jpg" alt="" />
                 </div>
-                <div className=" w-full md:w-[50%] pl-[60px] pr-2 flex flex-col justify-center items-center bg-[#333333]  h-full">
+                <div className=" w-full md:w-[50%] p-[80px] flex flex-col justify-center items-center bg-[#333333] max-h-fit">
                     <div className=" table-cell align-middle">
-                        <p className=" text-[#aaa]">Software Developer</p>
-                        <h2 className=" text-5xl font-bold text-white my-4">John doe</h2>
-                        <p className=" text-[#d5d5d5] leading-loose">As a React developer with 5 years of experience, I have honed my skills in JavaScript and am currently learning TypeScript to expand my expertise. I pride myself on being a quick learner and attentive listener, which allows me to collaborate effectively with clients to create efficient and scalable solutions. My focus is on developing user-friendly applications that solve real-world problems.",
-                            "quote": "Live the Life as you want</p>
+                        <p className=" text-[#aaa]">Mern stack web Developer</p>
+                        <h2 className=" text-5xl font-bold text-white my-4">Roknuzzaman sajib</h2>
+                        <p className=" text-[#d5d5d5] leading-loose">👋 Hi there! I'm Roknuzzaman,
+                            "Hello, I'm Roknuzzaman, a seasoned MERN stack developer passionate about crafting elegant solutions. With expertise in MongoDB, Express.js, React.js, and Node.js, I specialize in building responsive web applications that scale seamlessly. My experience in designing full-stack architectures for diverse needs ensures quality deliverables, on time. Let's collaborate on challenging projects and transform ideas into robust, user-focused solutions."💻✨</p>
                         <button className="button-orange hover:bg-[#ff714a] mt-3 text-white font-serif hover:text-black text-xl">
                             contact
                         </button>
@@ -36,14 +39,25 @@ const About = () => {
             </div>
             {/* client and what i do section */}
             <div className=' p-[40px] md:p-[80px]'>
-                <h1 className=' text-2xl font-bold inline-block border-b-[4px] border-[#ff714a] px-2'>Clients</h1>
-                <div className='flex justify-around items-around mt-2 flex-wrap gap-2'>
-                    <img className=' h-9' src="https://i.ibb.co/bJ8W313/client-1.png" alt="" />
-                    <img className=' h-9' src="https://i.ibb.co/7v9WVhj/client-2.png" alt="" />
-                    <img className=' h-9' src="https://i.ibb.co/zNYrr2w/client-3.png" alt="" />
-                    <img className=' h-9' src="https://i.ibb.co/0qs8JTL/client-4.png" alt="" />
-                    <img className=' h-9' src="https://i.ibb.co/HpgJh15/client-5.png" alt="" />
-                    <img className=' h-9' src="https://i.ibb.co/Sv5GwVf/client-6.png" alt="" />
+                <h1 className=' text-2xl font-bold inline-block border-b-[4px] border-[#ff714a] px-2'>What i do</h1>
+                <div data-aos="flip-up" className=' mt-4'>
+                    <div className=' grid grid-cols-1 md:grid-clos-2 lg:grid-cols-3 gap-6'>
+                        <div className=' flex flex-col text-center items-center space-y-2'>
+                            <img className=' h-40 rounded-sm mt-2' src={frontEndImg} alt="" />
+                            <h1 className=' xl:text-2xl lg:text-xl md:text-xl text-2xl font-bold'>Front-End developer</h1>
+                            <p className='w-[300px] md:text-sm text-xs'>I develop the websites. create high performance website with blazing fast speed.</p>
+                        </div>
+                        <div className=' flex flex-col text-center items-center space-y-2'>
+                            <img className=' h-40 rounded-sm mt-2' src={marnStackImg} alt="" />
+                            <h1 className=' xl:text-2xl lg:text-xl md:text-xl text-2xl font-bold'>MERN stack developer</h1>
+                            <p className='w-[300px] md:text-sm text-xs'>I develop the websites. create high performance website with blazing fast speed.</p>
+                        </div>
+                        <div className=' flex flex-col text-center items-center space-y-2'>
+                            <img className=' h-40 rounded-sm mt-2' src={webDevelopmentImg} alt="" />
+                            <h1 className=' xl:text-2xl lg:text-xl md:text-xl text-2xl font-bold'>Web Development</h1>
+                            <p className='w-[300px] md:text-sm text-xs'>I develop the websites. create high performance website with blazing fast speed.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

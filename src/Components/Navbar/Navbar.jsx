@@ -7,23 +7,21 @@ const Navbar = () => {
         <div className=" w-full min-h-screen flex flex-col justify-between py-[30px]">
             {/* navbar profile section */}
             <div className=" flex flex-col items-center justify-center mb-[30px]">
-                <img className=" w-[80px] max-h-[80px] object-cover rounded-lg mb-5" src="https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706283290608-n4hq7k" alt="" />
-                <h3 className=" text-2xl font-bold text-white overflow-hidden">John</h3>
+                <img className=" w-[80px] max-h-[80px] object-cover rounded-lg mb-5" src="https://i.ibb.co/mTQJ4jg/portfolio.jpg" alt="" />
+                <h3 className=" text-2xl font-bold text-white overflow-hidden">Sajib</h3>
             </div>
             <div>
                 {/* menu section */}
                 <ul className=" text-center w-full flex flex-col">
                     <NavLink to="/" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[12px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li"}>About</NavLink>
 
-                    <NavLink to="/services" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[12px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li"}>Services</NavLink>
+                    <NavLink to="/services" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[12px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li"}>Resume</NavLink>
 
                     <NavLink to="/skills" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[12px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li"}>Skills</NavLink>
 
                     <NavLink to="/projects" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[12px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li"}>Projects</NavLink>
 
                     <NavLink to="/timeline" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[12px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li"}>Timeline </NavLink>
-
-                    <NavLink to="/testimonial" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[12px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li"}>Testimonial </NavLink>
 
                     <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li" : isActive ? " w-full text-white py-[12px] font-serif bg-[#333333] shadow-left" : "w-full border-t border-[#333] text-white py-[12px] font-serif active:bg-[#333333] li"}>Contact</NavLink>
                 </ul>
